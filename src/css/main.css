@@ -1,0 +1,68 @@
+@media screen and (max-width: 600px) {
+    #header {
+        display: none;
+    }
+}
+
+.border-form {
+    border-style: solid;
+    width: 50%;
+    padding: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fieldset {
+    border-style: solid;
+}
+
+.table {
+    border-style: solid;
+    margin: auto;
+    margin-top: 5px;
+}
+.btn-tambah {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.form-group {
+    text-align: left;
+}
+fieldset.kelolah {
+    border: 5px groove #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    font-size: 1.25em;
+}
+
+legend.kelolah {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    width:auto;
+    padding:0 3px;
+    border-bottom:none;
+}
+
+.textarea-kelolah {
+    width: 100%;
+    height: 5em;
+}
+
+.kelolah-murid {
+    width: 100%;
+    text-align: center;
+}
+
+.paragraph-admin {
+    font-size: 1.5em;
+}
+
+.header-daftar {
+    text-align: center;
+}
