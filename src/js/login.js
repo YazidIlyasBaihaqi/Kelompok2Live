@@ -1,8 +1,9 @@
-function classToggle() {
-    const navs = document.querySelectorAll('.Navbar__Items')
-    
-    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-  }
-  
-  document.querySelector('.Navbar__Link-toggle')
-    .addEventListener('click', classToggle);
+function loginAuth(){
+    const InpLogin = document.getElementById("InpLogin").value;
+    const InpPassword = document.getElementById("InpPassword").value;
+    const login = "admin";
+    const password = "admin";
+    if (InpLogin === login && InpPassword === password)
+        alert("Login berhasil");
+    else alert ("Login gagal")
+}
