@@ -1,0 +1,33 @@
+.nav-Link {
+    padding-right: 8px;
+  }
+  
+  .navbar-item {
+    display: flex;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar-Items,
+    .navbar {
+      flex-direction: column;
+    }
+      
+  .navbar-item {
+      display:none;
+    }
+      
+  .navbar-ToggleShow {
+      display: flex;
+    }
+      
+  .navbar-toggler {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
