@@ -4,6 +4,6 @@ function loginAuth(){
     const login = "admin";
     const password = "admin";
     if (InpLogin === login && InpPassword === password)
-        console.log("Login berhasil");
+        window.location.replace("https://yazidilyasbaihaqi.github.io/livegithubtest/index.html");
     else console.log("Login gagal")
 }
