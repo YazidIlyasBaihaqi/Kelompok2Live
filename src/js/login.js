@@ -4,6 +4,6 @@ function loginAuth(){
     const login = "admin";
     const password = "admin";
     if (InpLogin === login && InpPassword === password)
-        alert("Login berhasil");
-    else alert ("Login gagal")
+        console.log("Login berhasil");
+    else console.log("Login gagal")
 }
