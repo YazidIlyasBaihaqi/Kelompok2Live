@@ -1,30 +1,46 @@
-.nav-Link {
+.Navbar {
+    background-color: #46ACC2;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .Navbar__Link {
     padding-right: 8px;
   }
   
-  .navbar-item {
+  .Navbar__Items {
     display: flex;
   }
   
-  .navbar-toggler {
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
     display: none;
   }
   
   @media only screen and (max-width: 768px) {
-    .Navbar-Items,
-    .navbar {
+    .Navbar__Items,
+    .Navbar {
       flex-direction: column;
     }
       
-  .navbar-item {
+  .Navbar__Items {
       display:none;
     }
       
-  .navbar-ToggleShow {
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
       display: flex;
     }
       
-  .navbar-toggler {
+  .Navbar__Link-toggle {
       align-self: flex-end;
       display: initial;
       position: absolute;
