@@ -24,8 +24,6 @@
     width: 100%;
 }
 
-
-
 .form-group {
     text-align: left;
 }
@@ -67,4 +65,8 @@ legend.kelolah {
 
 .header-daftar {
     text-align: center;
+}
+
+.login-web {
+    margin-top: 15%;
 }
