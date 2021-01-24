@@ -34,24 +34,31 @@
          </ul>
         </div>
       </nav>
-    </div>        
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-1">
-          <button type="button" class="btn-tambah btn btn-dark"><i class="fa fa-plus">Tambah Seminar Baru</i></button>
-        </div>
-        <div class="col-md-11">
-        </div>
-      </div>
     </div>
-    <form>
+    <div class="container-fluid">
+    	<div class="row">
+		<div class="col-md-1">
+		</div>
+		<div class="col-md-10">
+      <button type="button" class="btn-tambah btn btn-primary"><i class="fa fa-plus"> Tambah Seminar Baru</i></button>
+		</div>
+		<div class="col-md-1">
+		</div>
+	</div>
+   </div>
+   <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-1">
+		</div>
+		<div class="col-md-10">
+          <form>
       <fieldset class="kelolah">
           <legend class="kelolah">Form Daftar Seminar TA</legend>
-          <table>
+          <table class="table table-borderless">
              <tbody>
                 <tr>
                    <td><label>NIM : </label></td>
-                   <td><input type="text" class="form-control"</td>
+                   <td><input type="text" class="form-control"></td>
                    <td><label>Judul TA : </label></td>
                    <td rowspan="2"><input type="text" class="textarea-kelolah form-control" rows="2"></td>
                 </tr>
@@ -106,10 +113,15 @@
                 </tr>
              </tbody>
           </table>
-          <button>help</button>
-          <button>hapus</button>
+          <button class="btn-primary"><i class="fa fa-pencil"> Update</i></button>
+          <button class="btn-primary"><i class="fa fa-eraser"> Hapus</i></button>
       </fieldset>
   </form>
+		</div>
+		<div class="col-md-1">
+		</div>
+	</div>
+   </div>
 <script src="https://kit.fontawesome.com/05f9e72f4d.js" crossorigin="anonymous"></script>
 </body>
 </html>
